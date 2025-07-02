@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>CODINGMASTER- Home</title>
+  <style>
+    /* Basic reset and styles */
+    * {
+      margin: 0; padding: 0; box-sizing: border-box;
+    }
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: #f0f4f8;
+      color: #333;
+      line-height: 1.6;
+      min-height: 100vh;
+    }
+    header {
+      position: sticky;
+      top: 0;
+      background: linear-gradient(90deg, #0d253f 0%, #1db954 100%);
+      color: white;
+      padding: 15px 50px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      z-index: 1000;
+      user-select: none;
+      font-weight: 600;
+    }
+    header .logo {
+      font-family: 'Courier New', Courier, monospace;
+      font-size: 2rem;
+      letter-spacing: 2px;
+      cursor: default;
+      text-shadow: 1px 1px 3px rgba(0,0,0,0.3);
+    }
+    nav ul {
+      list-style: none;
+      display: flex;
+      gap: 30px;
+    }
+    nav ul li a {
+      color: white;
+      text-decoration: none;
+      font-size: 1.1rem;
+      padding: 8px 14px;
+      border-radius: 6px;
+      transition: background-color 0.3s ease, transform 0.2s ease;
+      box-shadow: 0 0 0 transparent;
+    }
+    nav ul li a:hover,
+    nav ul li a:focus {
+      background-color: rgba(255 255 255 / 0.25);
+      box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+      transform: translateY(-2px);
+      outline: none;
+    }
+    main {
+      max-width: 900px;
+      margin: 60px auto 60px;
+      padding: 0 20px;
+      text-align: center;
+    }
+    main h1 {
+      color: #0d253f;
+      font-weight: 700;
+      font-size: 3rem;
+      margin-bottom: 20px;
+      text-shadow: 1px 1px 3px #aaa;
+    }
+    main p.lead {
+      font-size: 1.3rem;
+      color: #555;
+      margin-bottom: 40px;
+      max-width: 700px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    footer {
+      text-align: center;
+      padding: 15px 0;
+      background: #0d253f;
+      color: white;
+      font-weight: 600;
+      box-shadow: 0 -3px 8px rgba(0,0,0,0.1);
+    }
+    @media (max-width: 480px) {
+      nav ul {
+        gap: 15px;
+      }
+      header {
+        padding: 15px 20px;
+      }
+      main h1 {
+        font-size: 2.2rem;
+      }
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <div class="logo">CodingMaster</div>
+  <nav>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="courses.html">Courses</a></li>
+      <li><a href="about.html">About Us</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main>
+  <h1>Welcome to CodingMaster</h1>
+  <p class="lead">Your journey to becoming a skilled programmer starts here! Explore expert-led courses and grow your career.
+    This website is a sleek, modern, and beginner-friendly multi-page platform designed to showcase and offer professional programming courses.
+ It aims to attract students, enthusiasts, and aspiring developers by providing valuable course information, a seamless browsing experience, and direct contact options.
+  </p>
+</main>
+
+<footer>
+  &copy; 2025 CodingMaster. All rights reserved.
+</footer>
+
+</body>
+</html>
+
+
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>CodeAcademy - Courses</title>
+  <style>
+    /* Reuse similar styles from index */
+    * {
+      margin: 0; padding: 0; box-sizing: border-box;
+    }
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: #f0f4f8;
+      color: #333;
+      line-height: 1.6;
+      min-height: 100vh;
+    }
+    header {
+      position: sticky;
+      top: 0;
+      background: linear-gradient(90deg, #0d253f 0%, #1db954 100%);
+      color: white;
+      padding: 15px 50px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      z-index: 1000;
+      user-select: none;
+      font-weight: 600;
+    }
+    header .logo {
+      font-family: 'Courier New', Courier, monospace;
+      font-size: 2rem;
+      letter-spacing: 2px;
+      cursor: default;
+      text-shadow: 1px 1px 3px rgba(0,0,0,0.3);
+    }
+    nav ul {
+      list-style: none;
+      display: flex;
+      gap: 30px;
+    }
+    nav ul li a {
+      color: white;
+      text-decoration: none;
+      font-size: 1.1rem;
+      padding: 8px 14px;
+      border-radius: 6px;
+      transition: background-color 0.3s ease, transform 0.2s ease;
+      box-shadow: 0 0 0 transparent;
+    }
+    nav ul li a:hover,
+    nav ul li a:focus {
+      background-color: rgba(255 255 255 / 0.25);
+      box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+      transform: translateY(-2px);
+      outline: none;
+    }
+
+    main {
+      max-width: 900px;
+      margin: 60px auto 60px;
+      padding: 0 20px;
+    }
+    main h1 {
+      color: #0d253f;
+      font-weight: 700;
+      font-size: 2.8rem;
+      margin-bottom: 20px;
+      text-align: center;
+      text-shadow: 1px 1px 3px #aaa;
+    }
+    main p.lead {
+      font-size: 1.25rem;
+      text-align: center;
+      color: #555;
+      margin-bottom: 40px;
+      max-width: 700px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    /* Courses grid */
+    .courses {
+      display: grid;
+      grid-template-columns: repeat(auto-fit,minmax(280px,1fr));
+      gap: 25px;
+    }
+    .course-card {
+      background: white;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgb(29 185 84 / 0.15);
+      padding: 25px 20px;
+      transition: box-shadow 0.3s ease, transform 0.2s ease;
+      cursor: default;
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+    }
+    .course-card:hover {
+      box-shadow: 0 8px 24px rgb(29 185 84 / 0.35);
+      transform: translateY(-6px);
+    }
+    .course-card h3 {
+      color: #0d253f;
+      font-size: 1.5rem;
+      font-weight: 700;
+    }
+    .course-desc {
+      font-size: 1rem;
+      color: #444;
+      flex-grow: 1;
+    }
+    .course-meta {
+      font-size: 0.9rem;
+      color: #666;
+      display: flex;
+      justify-content: space-between;
+      border-top: 1px solid #eee;
+      padding-top: 10px;
+      margin-top: auto;
+      font-weight: 600;
+    }
+
+    /* Responsive tweaks */
+    @media (max-width: 480px) {
+      nav ul {
+        gap: 15px;
+      }
+      header {
+        padding: 15px 20px;
+      }
+      main h1 {
+        font-size: 2rem;
+      }
+      .course-card {
+        padding: 20px 15px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <div class="logo">CodingMaster</div>
+  <nav>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="courses.html">Courses</a></li>
+      <li><a href="about.html">About Us</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main>
+  <h1>Our Courses</h1>
+  <p class="lead">Choose the right programming path for you from our expertly designed courses.</p>
+
+  <div class="courses">
+    <article class="course-card">
+      <h3>Python for Beginners</h3>
+      <p class="course-desc">Start your programming journey with Python, learning syntax, data structures, and projects.</p>
+      <div class="course-meta">
+        <span>Duration: 8 weeks</span>
+        <span>Level: Beginner</span>
+      </div>
+    </article>
+
+    <article class="course-card">
+      <h3>Java Programming</h3>
+      <p class="course-desc">Master Java fundamentals and object-oriented programming to build scalable applications.</p>
+      <div class="course-meta">
+        <span>Duration: 10 weeks</span>
+        <span>Level: Intermediate</span>
+      </div>
+    </article>
+
+    <article class="course-card">
+      <h3>CSS & Responsive Design</h3>
+      <p class="course-desc">Learn to style websites beautifully and make them adapt on all devices using modern CSS.</p>
+      <div class="course-meta">
+        <span>Duration: 6 weeks</span>
+        <span>Level: Beginner</span>
+      </div>
+    </article>
+
+    <article class="course-card">
+      <h3>Full Stack Web Development</h3>
+      <p class="course-desc">Become a full stack developer by learning HTML, CSS, JavaScript, React, Node.js, and databases.</p>
+      <div class="course-meta">
+        <span>Duration: 14 weeks</span>
+        <span>Level: Advanced</span>
+      </div>
+    </article>
+  </div>
+</main>
+
+</body>
+</html>
+
+
